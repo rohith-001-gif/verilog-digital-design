@@ -1,7 +1,7 @@
 module tb_decoder_3x8;
 reg  [2:0] a;
 wire [7:0] y;
-decoder_3x8 uut (
+decoder_3x8 dut (
     .a(a),
     .y(y));
 initial begin
